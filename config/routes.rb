@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'static_pages/home'
-  root 'static_pages/home'
+  root 'static_pages#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
 
@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   #   end
   #   resources :posts, concerns: :toggleable
   #   resources :photos, concerns: :toggleable
- 
+
   # Example resource route within a namespace:
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
